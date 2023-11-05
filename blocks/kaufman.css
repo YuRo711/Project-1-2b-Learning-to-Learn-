@@ -1,0 +1,26 @@
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -124px;
+  top: 0;
+  z-index: -1;
+  animation: rotation 20s linear infinite;
+}

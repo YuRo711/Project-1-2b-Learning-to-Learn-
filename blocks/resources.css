@@ -1,0 +1,20 @@
+.resources {
+  padding: 100px 0 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 60px 0 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
